@@ -26,7 +26,7 @@ public class Main {
 
         /* ... (4) TAGESTOUR\Tagestour 2025\2025 Tagestour_10 Oktober */
         String fileNameOld = sPATH + SEPARATOR + "(4) TAGESTOUR" + SEPARATOR
-                + "Tagestour " + year + SEPARATOR + "2025 Tagestour_" + month + " " + sMonth + ".xlsx";
+                + "Tagestour " + year + SEPARATOR + year + " Tagestour_" + month + " " + sMonth + ".xlsx";
 
         //-- check directory for year
         String dirTo = sPATH + SEPARATOR + "(4) TAGESTOUR" + SEPARATOR + "Tagestour taegliche Sicherung" + SEPARATOR + year;
