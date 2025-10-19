@@ -36,7 +36,7 @@ public class Main {
         }
 
         //-- check directory for month
-        dirTo = dirTo + SEPARATOR + month;
+        dirTo = dirTo + SEPARATOR + sMonth;
         dirToNew = new File(dirTo);
         if (!dirToNew.exists() && !dirToNew.mkdir()) {
             return;
